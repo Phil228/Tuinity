@@ -81,7 +81,7 @@ index 3dded5c491ace6b073a7bc3178976bd70f0b9393..ba2c44fb7dff7f53619328cf5092fd5e
      @DontObfuscate
      public String getServerModName() {
 -        return "Paper"; //Paper - Paper > // Spigot - Spigot > // CraftBukkit - cb > vanilla!
-+        return "Tuinity"; // Tuinity - Tuinity > //Paper - Paper > // Spigot - Spigot > // CraftBukkit - cb > vanilla!
++        return "HopperServer"; //HopperServer - HopperServer > // Tuinity; // Tuinity - Tuinity > //Paper - Paper > // Spigot - Spigot > // CraftBukkit - cb > vanilla!
      }
  
      public SystemReport fillSystemReport(SystemReport details) {
@@ -94,7 +94,7 @@ index dd435909ad16a7f732fd0a2056f986dd9b24c0d5..3e1336f4b823e9113a5afe97c8288c93
  
  public final class CraftServer implements Server {
 -    private final String serverName = "Paper"; // Paper
-+    private final String serverName = "Tuinity"; // Tuinity // Paper
++    private final String serverName = "HopperServer"; // HopperServer // Paper
      private final String serverVersion;
      private final String bukkitVersion = Versioning.getBukkitVersion();
      private final Logger logger = Logger.getLogger("Minecraft");
